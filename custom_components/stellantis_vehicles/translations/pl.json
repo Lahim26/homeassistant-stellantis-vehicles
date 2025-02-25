@@ -57,7 +57,7 @@
       "battery_charging_type": {
         "name": "Tryb ładowania baterii",
         "state": {
-          "No": "Nie",
+          "No": "Nie przebiega",
           "Slow": "Wolno",
           "Quick": "Szybko"
         }
@@ -66,7 +66,7 @@
         "name": "Battery charging time"
       },
       "battery_charging_end": {
-        "name": "Zakończenie baterii za"
+        "name": "Koniec ładowania za"
       },
       "battery_capacity": {
         "name": "Pojemność baterii"
@@ -75,14 +75,14 @@
         "name": "Battery residual"
       },
       "command_status": {
-        "name": "Command status",
+        "name": "Polecenie",
         "state": {
           "99": "Nie kompatybilne",
           "900": "Zaakceptowano",
           "901": "Vehicle as sleep",
-          "903": "Forwarded",
+          "903": "Przekazano",
           "0": "Zakończono",
-          "300": "Canceled",
+          "300": "Anulowano",
           "500": "Błąd"
         }
       },
@@ -139,7 +139,7 @@
     },
     "binary_sensor": {
       "moving": {
-        "name": "Moving"
+        "name": "W ruchu"
       },
       "doors": {
         "name": "Drzwi"
